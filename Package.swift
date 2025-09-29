@@ -27,13 +27,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaMaxAdapterUnityAds.zip",
-            checksum: "b2e70de73a631a30c6b6311baf798a787f472beb3df8aae8c0430631cbd98352"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaMaxAdapterUnityAds.zip",
+            checksum: "a86832423e06bcf000cdf258ce2478b4fd6328a3bab5bf8c020cd10699cfdbdb"
         ),
         .binaryTarget(
             name: "UnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/UnityAds.xcframework.zip",
-            checksum: "1f482a2dbb154abf881e524de103a1bf64b7a426b7bd07d615d6fdd61bcea5fb"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/UnityAds.xcframework.zip",
+            checksum: "661cd64f557434fd17310bc091c3707ac3911a7c3adcbd4debd83596fd580961"
         ),
     ]
 )
