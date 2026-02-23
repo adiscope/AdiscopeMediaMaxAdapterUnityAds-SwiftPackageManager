@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.4.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
     ],
     targets: [
         .target(
@@ -28,18 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaMaxAdapterUnityAds.zip",
-            checksum: "8469becaf07db782d4f5c0b287d73e4d938bd6e8070814fb431d329b8e531192"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterUnityAds.zip",
+            checksum: "496d6c7e4906f261179a2ea9293106926d2c04913f3ea90f154031582badf9cb"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationUnityAdsAdapter.xcframework.zip",
-            checksum: "17ba0692490b085dd2718c7965298c16116f1019fcce79a48f13aa573088b10f"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AppLovinMediationUnityAdsAdapter.xcframework.zip",
+            checksum: "29e110e685d5fc8c11ed83d810bc25bea4b59d771446e50ef9a806f5a9e2837f"
         ),
         .binaryTarget(
             name: "UnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/UnityAds.xcframework.zip",
-            checksum: "554126a255ced9fc0636b62be115e61fe1d11aae9fa87b0c68433abaf8b09d6d"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/UnityAds.xcframework.zip",
+            checksum: "5782f94d48fa7d1fa88182247f687833015a1aada1d7d5ceb88356fe5c8b047d"
         ),
     ]
 )
