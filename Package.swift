@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.2"),
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterUnityAds.zip",
-            checksum: "496d6c7e4906f261179a2ea9293106926d2c04913f3ea90f154031582badf9cb"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/AdiscopeMediaMaxAdapterUnityAds.zip",
+            checksum: "5d6e4fb8f7ad4be5eb04362a3174327abae6598f389b9320288a42c48a38f32b"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter",
